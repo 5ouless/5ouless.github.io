@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Games</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="category-buttons">
+        <button id="diceCategory">Dice Roller</button>
+        <button id="matchstickCategory">Matchstick Toss</button>
+    </div>
+
+    <div id="diceGame" class="game-container">
+        <h1>Roll the Dice!</h1>
+        <button id="rollButton">Roll Dice</button>
+        <button id="sortButton">Sort Dice</button>
+        <div id="diceContainer"></div>
+    </div>
+
+    <div id="matchstickGame" class="game-container" style="display:none;">
+        <h1>Matchstick Toss!</h1>
+        <button id="tossButton">Toss Matchsticks</button>
+        <div id="matchstickContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
